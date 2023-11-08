@@ -1,0 +1,85 @@
+*{
+    margin : 0 auto;
+    padding: 0;
+}
+#Pembungkus{
+    width: 950px;
+    height: 780px;
+    background-color: mistyrose;
+    border: 2px double palevioletred;
+}
+
+#header{
+    width: 925px;
+    height: 75px;
+    background-color: bisque;
+    border: 2px groove palevioletred;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 4px 3px 2px salmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 45px;
+}
+
+#menu{
+    width: 925px;
+    height: 50px;
+    background-color: antiquewhite;
+    border: 2px groove palevioletred;
+}
+
+#content{
+    width: 925px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    border: 2px groove palevioletred;
+}
+
+#footer{
+    width: 925px;
+    height: 55px;
+    background-color: bisque;
+    border: 2px groove palevioletred; 
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+/*----- Mengatur Menu Horizontal -----*/
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    position: relative;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    display: block;
+    width: 166px;
+    padding: 12px 5px 10px 10px;
+    background-color: pink;
+    text-align: center;
+    margin: 2px;
+    color: white;
+    font-weight: bold;
+}
+
+#menu ul li a:hover{
+    background-color: mistyrose;
+    color: darkgoldenrod;
+}
+
+#foto{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+}
+#foto img{
+    margin: 2px;
+}
